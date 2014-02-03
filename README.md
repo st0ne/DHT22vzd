@@ -13,6 +13,8 @@ Precondition: Raspian Linux (http://www.raspberrypi.org/downloads)
 
 Binding libraries: libcurl & libconfig -> 'sudo apt-get install libcurl4-gnutls-dev libconfig-dev'
 
+Install Wiring Pi: http://wiringpi.com/download-and-install/
+
 Download: 'git clone https://github.com/st0ne/DHT22vzd'
 
 Build: './build.sh'
