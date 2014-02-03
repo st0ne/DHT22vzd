@@ -14,8 +14,7 @@ Philipp Aigner  <phaigner@gmail.com>
 
 // DHT22 pin configuration
 #define MAXTIMINGS 85
-//#define DHTPIN 7
-static int DHTPIN = 7;
+#define DHTPIN 7
 
 /**************************************************************************
 
@@ -62,18 +61,13 @@ const char *vzserver, *vzpath, *uuid;
 
 static int dht22_dat[5] = {0,0,0,0,0};
 
-char sensorid[3][32][17], vzuuid[3][32][64], crc_buffer[64], temp_buffer[64], fn[128], url[128];
+char url[128];
 
 static float humidity;
 static float temperature;
 
 char temperature_uuid[64];
 char humidity_uuid[64];
-
-char crc_ok[] = "YES";
-char not_found[] = "not found.";
-
-double temp;
 
 config_t cfg;
 
