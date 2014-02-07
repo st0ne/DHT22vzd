@@ -21,6 +21,14 @@ Build: './build.sh'
 
 Copy DHT22vzd.cfg to /etc.
 
+Copy DHT22vzd to /usr/local/sbin or another directory.
+
+Add /usr/local/sbin/DHT22vzd to /etc/rc.local
+
+Reboot or start with /usr/local/sbin/DHT22vzd
+
+For debug output see syslog.
+
 Config
 ======
 
